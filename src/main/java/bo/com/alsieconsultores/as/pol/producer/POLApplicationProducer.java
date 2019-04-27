@@ -3,6 +3,10 @@ package bo.com.alsieconsultores.as.pol.producer;
 import bo.com.alsieconsultores.as.pol.model.POLApplication;
 
 public class POLApplicationProducer {
+
+    public POLApplicationProducer() {
+    }
+
     public void savePersonalInfo(POLApplication polApplication) {
         // TODO here send the message to rabbitmq queue for saving the personal info to the database
         // the polApplication object will expose the personal info in the
